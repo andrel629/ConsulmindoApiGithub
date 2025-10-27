@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# 🚀 GitHub API Wiki (Projeto React)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-## Available Scripts
+Este é um projeto de estudo em React focado no consumo de dados da API pública do GitHub. A aplicação permite ao usuário buscar repositórios e exibi-los na tela, servindo como uma base para uma "Wiki" de projetos.
 
-In the project directory, you can run:
+O principal objetivo é demonstrar a comunicação de um front-end moderno com uma API RESTful, aplicando conceitos essenciais do React e do JavaScript assíncrono.
 
-### `npm start`
+## ✨ Conceitos Abordados e Tecnologias
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Este projeto foi uma ótima oportunidade para praticar e solidificar os seguintes conceitos:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* **Consumo de API:** Utilização da `fetch()` API nativa do JavaScript para fazer requisições `GET` à API do GitHub.
+* **Gerenciamento de Estado (`useState`):** Uso do hook `useState` para armazenar os dados dos repositórios que vêm da API, bem como estados de *loading* e *erro*.
+* **Efeitos Colaterais (`useEffect`):** Uso do hook `useEffect` para disparar a chamada da API assim que o componente é montado ou quando uma dependência (como o nome do usuário) é alterada.
+* **JavaScript Assíncrono (Promises):** Trabalho direto com `Promises`, utilizando a sintaxe `.then()` ou `async/await` para lidar com o tempo de resposta da API e a conversão dos dados para `.json()`.
 
-### `npm test`
+## 🛠️ API Utilizada
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+O principal endpoint consumido neste projeto foi:
 
-### `npm run build`
+## 🚀 Como Executar o Projeto Localmente
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Para rodar este projeto na sua máquina, siga os passos abaixo:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1.  **Clone o repositório:**
+    ```bash
+    git clone [[https://github.com//andrel629/ConsulmindoApiGithub.git](https://github.com/andrel629/ConsulmindoApiGithub.git)](https://github.com//andrel629/ConsulmindoApiGithub.git)
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2.  **Navegue até o diretório do projeto:**
+    ```bash
+    cd nome-do-repositorio
+    ```
 
-### `npm run eject`
+3.  **Instale as dependências:**
+    ```bash
+    npm install
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4.  **Inicie o servidor de desenvolvimento:**
+    ```bash
+    # Se você usou Create React App
+    npm start
+    
+    # Se você usou Vite
+    npm run dev
+    ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Após isso, o projeto estará disponível em `http://localhost:3000` (ou `http://localhost:5173` se for Vite).
