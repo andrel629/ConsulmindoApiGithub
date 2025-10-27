@@ -1,0 +1,31 @@
+
+input{
+    
+    width: 70%;
+    height: 30px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #F2F2F2;
+    color: #1A1A1A;
+
+    border-radius:10px;
+    border-width: 0;
+  
+
+}
+
+input:focus{
+    
+    width: 75%;
+    height: 27px;
+    background-color: #ffffff;
+    color: #1A1A1A;
+
+    border-radius:100px;
+    border-width: 0;
+    
+
+  
+
+}
